@@ -1,5 +1,6 @@
-require "euler_project_rb/version"
+require 'euler_project_rb/version'
+require 'euler_project_rb/set_one_to_ten'
 
-module EulerProjectRb
-  # Your code goes here...
+module EulerProject
+  extend EulerProject::SetOneToTen
 end
